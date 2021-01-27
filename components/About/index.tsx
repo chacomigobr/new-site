@@ -1,13 +1,15 @@
+import Image from 'next/image'
 
 export default function About() {
   return (
     <div className="bg-white ">
-
-      <div className="flex flex-col justify-around w-full h-auto bg-purple-900 px-28 py-28 ">
+      <div className="flex flex-col justify-around w-full h-auto bg-blue-900 px-28 py-28 ">
+        <h1 className="text-4xl text-center font-bold text-gray-300">Sobre</h1>
 
         <div className=" flex flex-row justify-around w-full h-auto px-16 py-16 ">
-          <div className="flex flex-row justify-between w-96 h-60 bg-red-100">
 
+          <div className="flex flex-row justify-center w-96 h-60 ">
+            <Image src="/images/foguete.png" width="250" height="300" />
           </div>
           <div>
             <h1 className="text-2xl text-center font-bold text-gray-300">Nossa missão</h1>
@@ -32,14 +34,14 @@ export default function About() {
               discursões e mortes de mulheres pelo simples fato de ser mulher.
           </h3>
           </div>
-          <div className="flex flex-row justify-between w-96 h-60 bg-red-100">
-
+          <div className="flex flex-row justify-center w-96 h-60 ">
+            <Image src="/images/dart.png" width="250" height="300" />
           </div>
 
         </div>
         <div className=" flex flex-row justify-around w-full h-auto px-16 py-16 ">
-          <div className="flex flex-row justify-between w-96 h-60 bg-red-100">
-
+          <div className="flex flex-row justify-center w-96 h-60">
+            <Image src="/images/latte.png" width="250" height="300" />
           </div>
           <div>
             <h1 className="text-2xl text-center font-bold text-gray-300">Quem somos?</h1>

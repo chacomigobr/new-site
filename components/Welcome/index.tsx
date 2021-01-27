@@ -1,27 +1,41 @@
 import Image from 'next/image'
 import { motion } from "framer-motion"
 
-
 export default function Welcome() {
   return (
-    <div className="flex flex-row justify-center align-middle bg-purple-900 w-full z-10 h-screen ">
-
-      <div className="flex flex-row justify-evenly items-center h-screen	 bg-gray-200	px-28 py-28 border-customise w-4/5">
-        <div>
-          <h1 className="text-4xl text-left font-bold text-gray-700 my-2">
-            ChaComigo
+    <div className="flex flex-col  bg-blue-900">
+      <div className="flex flex-row justify-center bg-blue-900 h-screen py-24" >
+        <motion.div
+          className="flex flex-row justify-evenly items-center h-5/6 bg-white	px-28 py-28 border-customise w-3/5"
+          animate={{ scale: 1.1 }}>
+          <motion.div className="flex flex-col"
+            initial={{ scale: 0 }}
+            animate={{ scale: 1 }}
+            transition={{
+              type: "spring",
+              stiffness: 260,
+              damping: 20
+            }}
+          >
+            <h1 className="text-4xl text-left font-bold text-gray-600 my-2">
+              ChaComigo
         </h1>
-          <h2 className="text-lg text-left text-gray-700 ">
-            Na construção de um mundo mais consciente
+            <h2 className="text-lg text-left text-gray-600 ">
+              Na construção de um mundo mais consciente
         </h2>
-          <h3 className="text-base text-left text-gray-700">
-            O mais importante é que esteja bem
+            <h3 className="text-base text-left text-gray-600">
+              O mais importante é que esteja bem
         </h3>
-        </div>
+          </motion.div>
+          {/* <Image src="/images/reader-coffee.jpg" width="260" height="400" /> */}
+          <motion.div whileHover={{ scale: 1.1 }}>
+            <Image src="/images/chalogo.png" width="200" height="200" />
+          </motion.div>
 
-        {/* <Image src="/images/reader-coffee.jpg" width="260" height="400" /> */}
-        <Image src="/images/chalogo.png" width="200" height="200" />
-      </div>
+        </motion.div >
+      </div >
+
+      <div className="flex bg-blue-400 py-0.5 mx-8" />
     </div>
   )
 }

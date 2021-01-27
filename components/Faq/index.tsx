@@ -1,7 +1,7 @@
 
 export default function Faq() {
   return (
-    <div className=" flex flex-col justify-around w-full h-auto bg-blue-300	px-28 py-24 ">
+    <div className=" flex flex-col justify-around w-full h-screen bg-blue-300	px-28 py-24 ">
 
       <h1 className="text-2xl text-left font-bold text-red-500 pb-8 ">Perguntas Mais Frequentes</h1>
       <h1 className="text-xl text-left font-bold text-blue-700 pb-2">O que fazer para saber se estou em um relacionamento abusivo? </h1>

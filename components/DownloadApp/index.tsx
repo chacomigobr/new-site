@@ -1,12 +1,13 @@
+import Image from 'next/image'
 
 export default function DownloadApp() {
   return (
-    <div className=" flex flex-row justify-around w-full h-1/2 bg-blue-700	px-28 py-28 ">
+    <div className=" flex flex-row justify-around w-full h-screen bg-blue-700	px-28 py-28 ">
 
       <div className=" flex flex-row justify-around w-full h-auto px-16 py-16 ">
 
-        <div className="flex flex-row justify-between w-96 h-60 bg-white">
-
+        <div className="flex flex-row justify-center w-96 h-60">
+          <Image src="/images/chalogo.png" width="200" height="200" />
         </div>
 
         <div>
