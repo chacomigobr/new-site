@@ -6,74 +6,50 @@ export default function DownloadApp() {
 
       <div className=" flex flex-row justify-around align-middle w-full h-auto ">
 
-        <div className="grid grid-cols-4 gap-4  ">
+        <div className="grid grid-cols-5 gap-16  ">
 
-          <div className="flex flex-row justify-center">
-            <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              Comunidade
-            </h1>
-          </div>
-          <div className="flex flex-row justify-center">
-            <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              hhoj  hgff gjgjgjgjg
-            </h1>
+          <div className="flex flex-col justify-center col-span-5 ">
+            <h1 className="text-2xl text-center font-bold text-yellow-400 text-opacity-75 py-2">
+              ChaComigo um App para todos
+            </h1 >
+            <h3 className="flex justify-center text-base text-center font-bold text-gray-300 ">
+              Nossa missão é levar luz aos relacionamentos
+            </h3>
           </div>
 
-          <div className="flex flex-row justify-center">
-            <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              Quem somos?
-            </h1>
+          <div className="flex flex-col justify-center">
+            <h1 className="text-2xl text-center font-bold text-yellow-400 text-opacity-75 py-2">
+              Fácil de usar
+            </h1 >
+            <h3 className="flex justify-center text-base text-center font-bold text-gray-300 ">
+              Nossa missão é levar luz aos relacionamentos
+            </h3>
           </div>
 
-          <div className="flex flex-row justify-center">
-            <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              fggd dgdhtgc fhfhjf hf
-            </h1>
-          </div>
-
-          <div className="flex flex-row justify-center">
-            <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              Fácil
-            </h1>
-          </div>
-
-          <div className="flex flex-row justify-center ">
-            <Image src="/images/chalogo.png" width="200" height="200" />
-          </div>
-
-          <div className="flex flex-row justify-center">
+          <div className="flex flex-row justify-center col-span-3">
             <Image src="/images/chalogo.png" width="200" height="200" />
           </div>
 
           <div className="flex flex-row justify-center">
             <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              Divertido
+              Divertido e Interativo
             </h1>
           </div>
 
-          <div className="flex flex-row justify-center">
-            <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              Quem somos?
-            </h1>
-          </div>
-
-          <div className="flex flex-row justify-center">
+          <div className="flex flex-row justify-center col-span-2">
             <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
               Comunidades
             </h1>
           </div>
 
-          <div className="flex flex-row justify-center">
+          <div className="flex flex-row justify-center" />
+
+          <div className="flex flex-row justify-center col-span-2">
             <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              iopoiiii iioijjh
+              Novidade
             </h1>
           </div>
 
-          <div className="flex flex-row justify-center">
-            <h1 className="text-2xl text-center font-bold text-gray-300  py-4">
-              Comunidades
-            </h1>
-          </div>
         </div>
 
         {/* 
