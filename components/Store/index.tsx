@@ -1,7 +1,7 @@
 
 export default function Store() {
   return (
-    <div className="flex flex-row justify-around items-center w-full h-2/3 bg-pink-400	px-28 py-28 ">
+    <div className="flex flex-row justify-around items-center w-full h-screen bg-pink-400	px-28 py-28 ">
 
       <div>
         <h1 className="text-2xl text-center w-96 font-bold text-gray-100">
