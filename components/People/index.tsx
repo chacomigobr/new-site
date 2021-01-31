@@ -44,9 +44,9 @@ export default function People() {
 
       </div>
 
-      <div className="flex flex-row w-full h-auto justify-center bg-white pt-16">
+      {/* <div className="flex flex-row w-full h-auto justify-center bg-white pt-16">
         <Image src="/images/friends.jpg" width="400" height="150" />
-      </div>
+      </div> */}
     </div>
   )
 }

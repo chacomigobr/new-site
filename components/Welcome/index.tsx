@@ -3,8 +3,8 @@ import { motion } from "framer-motion"
 
 export default function Welcome() {
   return (
-    <div className="flex flex-col  bg-blue-900">
-      <div className="flex flex-row justify-center bg-blue-900 h-screen py-24" >
+    <div className="flex flex-col  bg-purple-900">
+      <div className="flex flex-row justify-center bg-purple-900 h-screen py-24" >
         <motion.div
           className="flex flex-row justify-evenly items-center h-5/6 bg-white	px-28 py-28 border-customise w-3/5"
           animate={{ scale: 1.1 }}>
@@ -35,7 +35,7 @@ export default function Welcome() {
         </motion.div >
       </div >
 
-      <div className="flex bg-blue-400 py-0.5 mx-8" />
+      <div className="flex bg-pink-800 py-0.5 mx-16" />
     </div>
   )
 }
