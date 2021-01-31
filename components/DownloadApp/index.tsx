@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function DownloadApp() {
   return (
-    <div className="flex flex-row justify-around w-full h-screen bg-purple-300	px-28 py-16 ">
+    <div className="flex flex-row justify-around w-full h-screen bg-white	px-28 py-16 ">
 
       <div className=" flex flex-row justify-around align-middle w-full h-auto ">
 

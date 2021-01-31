@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function About() {
   return (
     <div className="bg-white ">
-      <div className="flex flex-col justify-around w-full h-auto bg-white px-28 py-28 ">
+      <div className="flex flex-col justify-around w-full h-auto bg-gray-100 px-28 py-28 ">
         <h1 className="text-4xl text-center font-bold text-gray-600">
           Sobre
         </h1>

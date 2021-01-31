@@ -4,8 +4,8 @@ export default function Store() {
   return (
     <div className="flex flex-row justify-between items-center w-full h-screen bg-purple-400	 py-28 ">
 
-      <div className="flex flex-col w-1/2 bg-purple-400 px-28">
-        <h1 className="text-2xl text-left font-bold text-yellow-300 pb-1 w-full">
+      <div className="flex flex-col w-1/2 bg-purple-400 px-28 ">
+        <h1 className="text-2xl text-left font-bold text-pink-600 pb-1 w-full uppercase">
           Venha conhecer nossa lojinha
         </h1>
 
@@ -13,17 +13,17 @@ export default function Store() {
           Camisetas, canecas, sticks personalizados...
         </h1>
 
-        <h2 className="text-base text-left  text-gray-100 font-bold pb-2 items-center w-full">
-          |  <Image src="/images/arrow.png" width="20" height="20" className="" />  Varios tamanhos e cores variadas
-        </h2>
+        <div className=" flex  justify-start text-base text-left  text-gray-100 font-bold pb-2 w-full">
+          <Image src="/images/core.png" width="20" height="16" className="" />  <h2 className="px-2"> Varios tamanhos e cores variadas</h2>
+        </div>
 
-        <h2 className="text-base text-left  text-gray-100 font-bold pb-2 w-full">
-          |  <Image src="/images/arrow.png" width="20" height="20" className="" />  Valor das vendas usadas para investir na causa
-        </h2>
+        <div className="flex  justify-start text-base text-left  text-gray-100 font-bold pb-2 w-full">
+          <Image src="/images/core.png" width="20" height="16" className="" /> <h2 className="px-2"> Valor das vendas usadas para investir na causa</h2>
+        </div>
 
-        <h2 className="text-base text-left  text-gray-100 font-bold pb-2 w-full">
-          |  <Image src="/images/arrow.png" width="20" height="20" className="" />  O primeiro passo é se questionar
-        </h2>
+        <div className="flex  justify-start text-base text-left  text-gray-100 font-bold pb-2 w-full">
+          <Image src="/images/core.png" width="20" height="16" className="" /> <h2 className="px-2">O primeiro passo é se questionar </h2>
+        </div>
 
       </div>
 
