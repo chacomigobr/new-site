@@ -25,15 +25,16 @@ module.exports = {
       white: colors.white,
       yellow: colors.yellow,
       purple: colors.purple,
-      gray: colors.coolGray,
+      gray: colors.coolGray,                                                                                                                                                                                  
       blue: colors.lightBlue,
       red: colors.rose,
-      pink: colors.fuchsia,
+      pink: colors.fuchsia,                                                                                                                                                                                                                                                                                                                                                       
       black: colors.black,
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      ara: ['Antic Slab', 'serif                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ']
     },
     extend: {
       spacing: {
