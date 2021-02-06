@@ -28,7 +28,11 @@ export default function Welcome() {
         </h3>
           </motion.div>
           {/* <Image src="/images/reader-coffee.jpg" width="260" height="400" /> */}
-          <motion.div whileHover={{ scale: 1.1 }}>
+          <motion.div animate={{
+
+            scale: [1, 1, 1.1, 1.1, 1],
+            rotate: [0, 0, 15, -15, 0],
+          }}>
             <Image src="/images/chalogo.png" width="200" height="200" />
           </motion.div>
 
