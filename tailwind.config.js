@@ -22,13 +22,14 @@ module.exports = {
       'large': '12px',
     },
     colors: {
+      background: '##A09E95',
       white: colors.white,
       yellow: colors.yellow,
       purple: colors.purple,
-      gray: colors.coolGray,                                                                                                                                                                                  
+      gray: colors.coolGray,
       blue: colors.lightBlue,
       red: colors.rose,
-      pink: colors.fuchsia,                                                                                                                                                                                                                                                                                                                                                       
+      pink: colors.fuchsia,
       black: colors.black,
     },
     fontFamily: {

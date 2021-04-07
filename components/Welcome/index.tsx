@@ -4,11 +4,12 @@ import { motion } from "framer-motion"
 export default function Welcome() {
   return (
     <div className="flex flex-col  bg-white">
-      <div className="flex flex-row justify-center bg-purple-200 h-screen py-24" >
+      <div className="flex flex-row justify-center bg-background h-screen py-24" >
         <motion.div
-          className="flex flex-row justify-evenly items-center h-5/6 bg-white	px-28 py-28 border-customise w-3/5"
+          className="flex flex-col-reverse md:flex-row  justify-evenly items-center h-5/6 bg-white	px-28 py-28 border-customise w-3/5"
           animate={{ scale: 1.1 }}>
-          <motion.div className="flex flex-col"
+
+          <motion.div className="flex flex-col md:w-1/2 "
             initial={{ scale: 0 }}
             animate={{ scale: 1 }}
             transition={{
@@ -17,23 +18,21 @@ export default function Welcome() {
               damping: 20
             }}
           >
-            <h1 className="text-4xl text-left font-bold text-gray-600 my-2">
+            <h1 className="text-4xl text-center md:text-left font-bold text-gray-600 my-2">
               ChaComigo
-        </h1>
-            <h2 className="text-lg text-left text-gray-600 ">
-              Na construção de um mundo mais consciente
-        </h2>
-            <h3 className="text-base text-left text-gray-600">
-              O mais importante é que esteja bem
-        </h3>
+            </h1>
+            <h2 className="text-base text-center md:text-left text-gray-600 ">
+              Na construção de um mundo mais consciente com pessoas mais inteligentes emocionalmente
+            </h2>
+            <h3 className="text-base text-center md:text-left text-gray-600">
+              O mais importante é que esteja bem e que as pessoas a sua volta também
+            </h3>
           </motion.div>
-          {/* <Image src="/images/reader-coffee.jpg" width="260" height="400" /> */}
-          <motion.div animate={{
-
+          <motion.div className="py-6" animate={{
             scale: [1, 1, 1.1, 1.1, 1],
             rotate: [0, 0, 15, -15, 0],
           }}>
-            <Image src="/images/chalogo.png" width="200" height="200" />
+            <Image className="" src="/images/chalogo.png" width="200" height="200" />
           </motion.div>
 
         </motion.div >

@@ -7,7 +7,7 @@ export default function People() {
         <h1 className="text-4xl  font-bold text-gray-700 text-left pb-28 w-full">Nosso Time </h1>
       </div>
 
-      <div className=" flex flex-row justify-around w-full h-auto " >
+      <div className=" flex flex-col-reverse md:flex-row justify-around w-full h-auto " >
         <div className=" flex flex-col justify-around  ">
           <div className="flex flex-row justify-center ">
             <Image src="/images/avatarana.svg" width="180" height="180" />

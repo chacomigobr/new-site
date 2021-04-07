@@ -1,7 +1,7 @@
 
 export default function Header() {
   return (
-    <div className="sticky flex flex-row justify-between w-full h-16 bg-purple-200	px-28 py-4 z-50">
+    <div className="sticky flex flex-row justify-between w-full h-16 bg-gray-100	px-28 py-4 z-50">
       <h1 className="text-2xl font-bold text-gray-600">
         ChaComigo
       </h1>
