@@ -3,10 +3,10 @@ import { motion } from "framer-motion"
 
 export default function Welcome() {
   return (
-    <div className="flex flex-col  bg-pink-800">
+    <div className="flex flex-col  bg-green-800">
       <div className="flex flex-row justify-center bg-background h-screen py-24" >
         <motion.div
-          className="flex flex-col-reverse md:flex-row  justify-evenly items-center h-5/6 bg-pink-700	px-28 py-28 border-customise w-3/5"
+          className="flex flex-col-reverse md:flex-row  justify-evenly items-center h-5/6 bg-green-700	px-28 py-28 border-customise w-3/5"
           animate={{ scale: 1.1 }}>
 
           <motion.div className="flex flex-col md:w-1/2 "

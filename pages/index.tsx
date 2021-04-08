@@ -9,6 +9,7 @@ import Faq from '../components/Faq'
 import Store from '../components/Store'
 import Footer from '../components/Footer'
 import WordsRun from '../components/WordsRun'
+import News from '../components/News'
 
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <main>
         <Welcome />
         <About />
+        <News />
         <DownloadApp />
         <People />
         <WordsRun />

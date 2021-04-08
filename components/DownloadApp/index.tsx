@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 export default function DownloadApp() {
   return (
-    <div className="flex flex-row justify-around w-full h-screen bg-pink-800	px-28 py-16 ">
+    <div className="flex flex-row justify-around w-full h-screen bg-green-800	px-28 py-16 ">
 
       <div className=" flex flex-row justify-around align-middle w-full h-auto ">
 
         <div className="grid grid-cols-5 gap-4">
 
           <div className="flex flex-col justify-center col-span-5 pb-8 ">
-            <h1 className="text-2xl text-center font-bold text-yellow-500 text-opacity-100 py-2">
+            <h1 className="text-2xl text-center font-bold text-green-500 text-opacity-100 py-2">
               ChaComigo
             </h1 >
             <h3 className="flex justify-center text-base text-center font-bold text-gray-300 ">
@@ -21,7 +21,7 @@ export default function DownloadApp() {
           </div>
 
           <div className="flex flex-col justify-center">
-            <h1 className="text-2xl text-center font-bold text-yellow-500  py-2">
+            <h1 className="text-2xl text-center font-bold text-green-500  py-2">
               Fácil de usar
             </h1 >
             <h3 className="flex justify-center text-base text-center font-bold text-gray-300 ">
@@ -35,7 +35,7 @@ export default function DownloadApp() {
 
 
           <div className="flex flex-col justify-center">
-            <h1 className="text-2xl text-center font-bold text-yellow-500  py-2">
+            <h1 className="text-2xl text-center font-bold text-green-500  py-2">
               Divertido e Interativo
             </h1 >
             <h3 className="flex justify-center text-base text-center font-bold text-gray-300 ">
@@ -45,7 +45,7 @@ export default function DownloadApp() {
 
 
           <div className="flex flex-col justify-center col-span-2">
-            <h1 className="text-2xl text-center font-bold text-yellow-500  py-2">
+            <h1 className="text-2xl text-center font-bold text-green-500  py-2">
               Comunidades
             </h1 >
             <h3 className="flex justify-center text-base text-center font-bold text-gray-300 ">
@@ -57,7 +57,7 @@ export default function DownloadApp() {
           <div className="flex flex-row justify-center" />
 
           <div className="flex flex-col justify-center col-span-2">
-            <h1 className="text-2xl text-center font-bold text-yellow-500  py-2">
+            <h1 className="text-2xl text-center font-bold text-green-500  py-2">
               Novidade
             </h1 >
             <h3 className="flex justify-center text-base text-center font-bold text-gray-300 ">
@@ -71,7 +71,7 @@ export default function DownloadApp() {
 
         {/* 
         <div>
-          <h1 className="text-2xl text-left font-bold text-yellow-500 my-4">App Chá Comigo</h1>
+          <h1 className="text-2xl text-left font-bold text-green-500 my-4">App Chá Comigo</h1>
           <h3 className="text-xl text-left w-96 font-bold text-gray-300  my-2">
             Se você tem duvidas sobre estar ou não em um relacionamento abusivo,
             o aplicativo do Chá comigo te ajuda nessa jornada:

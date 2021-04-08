@@ -2,14 +2,14 @@ import Image from 'next/image'
 
 export default function About() {
   return (
-    <div className="bg-white ">
-      <div className="flex flex-col justify-around w-full h-auto bg-gray-300 pt-16 md:px-28 md:py-20 md:bg-white">
+    <div className="bg-green-100 ">
+      <div className="flex flex-col justify-around w-full h-auto bg-green-300 pt-16 md:px-28 md:py-20 md:bg-green-100">
 
         <h1 className="text-4xl text-center font-bold text-gray-700 md:text-gray-500 pb-2 md:pb-16">
           Sobre
         </h1>
 
-        <div className=" flex flex-col-reverse md:flex-row justify-around w-full h-auto px-16 py-16 bg-gray-300">
+        <div className=" flex flex-col-reverse md:flex-row justify-around w-full h-auto px-16 py-16 bg-green-300">
           <div className="flex flex-row justify-center w-auto md:w-96  h-60">
             <Image src="/images/latte.png" width="250" height="300" />
           </div>
@@ -29,7 +29,7 @@ export default function About() {
           </div>
         </div>
 
-        <div className=" flex flex-col md:flex-row justify-around w-full h-auto px-16 py-16 bg-gray-200 ">
+        <div className=" flex flex-col md:flex-row justify-around w-full h-auto px-16 py-16 bg-green-200 ">
 
 
           <div>
@@ -51,7 +51,7 @@ export default function About() {
 
         </div>
 
-        <div className=" flex flex-col-reverse md:flex-row justify-around w-full h-auto px-16 py-16 bg-gray-300">
+        <div className=" flex flex-col-reverse md:flex-row justify-around w-full h-auto px-16 py-16 bg-green-300">
           <div className="flex flex-row justify-center w-auto md:w-96 h-60 ">
             <Image src="/images/dart.png" width="250" height="300" />
           </div>

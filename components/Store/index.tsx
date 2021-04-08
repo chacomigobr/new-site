@@ -43,32 +43,32 @@ export default function Store() {
   };
 
   return (
-    <div className="flex flex-row justify-between items-center w-full h-screen bg-gray-300	 py-28 ">
+    <div className="flex flex-row justify-between items-center w-full h-screen bg-green-600	 py-28 ">
 
-      <div className="flex flex-col w-1/2 bg-gray-300 px-28 ">
-        <h1 className="text-2xl text-left font-bold text-pink-400 pb-1 w-full uppercase">
+      <div className="flex flex-col w-1/2 bg-green-600 px-28 ">
+        <h1 className="text-2xl text-left font-bold text-green-300 pb-1 w-full uppercase">
           Venha conhecer nossa lojinha
         </h1>
 
-        <h1 className="text-base text-left  text-gray-500 font-bold pb-6 w-full">
+        <h1 className="text-base text-left  text-gray-200 font-bold pb-6 w-full">
           Camisetas, canecas, sticks personalizados...
         </h1>
 
-        <div className=" flex  justify-start text-base text-left  text-gray-500 font-bold pb-2 w-full">
+        <div className=" flex  justify-start text-base text-left  text-gray-200 font-bold pb-2 w-full">
           <Image src="/images/core.png" width="20" height="16" className="" />  <h2 className="px-2"> Varios tamanhos e cores variadas</h2>
         </div>
 
-        <div className="flex  justify-start text-base text-left  text-gray-500 font-bold pb-2 w-full">
+        <div className="flex  justify-start text-base text-left  text-gray-200 font-bold pb-2 w-full">
           <Image src="/images/core.png" width="20" height="16" className="" /> <h2 className="px-2"> Valor das vendas usadas para investir na causa</h2>
         </div>
 
-        <div className="flex  justify-start text-base text-left  text-gray-500 font-bold pb-2 w-full">
+        <div className="flex  justify-start text-base text-left  text-gray-200 font-bold pb-2 w-full">
           <Image src="/images/core.png" width="20" height="16" className="" /> <h2 className="px-2">O primeiro passo é se questionar </h2>
         </div>
 
       </div>
 
-      <div className="flex flex-col items-center justify-center h-screen bg-gray-100 w-1/2 px-28">
+      <div className="flex flex-col items-center justify-center h-screen bg-green-300 w-1/2 px-28">
 
         <div className="example-container">
           <AnimatePresence initial={false} custom={direction}>
