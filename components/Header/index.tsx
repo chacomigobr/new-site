@@ -6,7 +6,7 @@ export default function Header() {
         ChaComigo
       </h1>
 
-      <div className="flex flex-row justify-between">
+      <div className="md:flex-row md:flex hidden justify-between">
         <h2 className="px-2 text-gray-600"> Sobre </h2>
         <h2 className="px-2 text-gray-600"> Eventos </h2>
         <h2 className="px-2 text-gray-600"> Produtos </h2>
@@ -14,6 +14,10 @@ export default function Header() {
         <h2 className="px-2 text-gray-600"> FAQ </h2>
         <h2 className="px-2 text-gray-600"> Loja </h2>
         <h2 className="px-2 text-gray-600"> Contato </h2>
+      </div>
+
+      <div className="md:hidden flex-row flex">
+        MENU
       </div>
     </div>
   )

@@ -8,6 +8,7 @@ import People from '../components/People'
 import Faq from '../components/Faq'
 import Store from '../components/Store'
 import Footer from '../components/Footer'
+import WordsRun from '../components/WordsRun'
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         <About />
         <DownloadApp />
         <People />
+        <WordsRun />
         <Faq />
         <Store />
         <Footer />

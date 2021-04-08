@@ -3,10 +3,10 @@ import { motion } from "framer-motion"
 
 export default function Welcome() {
   return (
-    <div className="flex flex-col  bg-white">
+    <div className="flex flex-col  bg-pink-800">
       <div className="flex flex-row justify-center bg-background h-screen py-24" >
         <motion.div
-          className="flex flex-col-reverse md:flex-row  justify-evenly items-center h-5/6 bg-white	px-28 py-28 border-customise w-3/5"
+          className="flex flex-col-reverse md:flex-row  justify-evenly items-center h-5/6 bg-pink-700	px-28 py-28 border-customise w-3/5"
           animate={{ scale: 1.1 }}>
 
           <motion.div className="flex flex-col md:w-1/2 "
@@ -18,13 +18,13 @@ export default function Welcome() {
               damping: 20
             }}
           >
-            <h1 className="text-4xl text-center md:text-left font-bold text-gray-600 my-2">
+            <h1 className="text-4xl text-center md:text-left font-bold text-gray-200 my-2">
               ChaComigo
             </h1>
-            <h2 className="text-base text-center md:text-left text-gray-600 ">
+            <h2 className="text-base text-center md:text-left text-gray-200 ">
               Na construção de um mundo mais consciente com pessoas mais inteligentes emocionalmente
             </h2>
-            <h3 className="text-base text-center md:text-left text-gray-600">
+            <h3 className="text-base text-center md:text-left text-gray-200">
               O mais importante é que esteja bem e que as pessoas a sua volta também
             </h3>
           </motion.div>
@@ -38,7 +38,7 @@ export default function Welcome() {
         </motion.div >
       </div >
 
-      <div className="flex bg-white py-0.5 mx-16" />
+      {/* <div className="flex bg-white py-0.5 mx-16" /> */}
     </div>
   )
 }

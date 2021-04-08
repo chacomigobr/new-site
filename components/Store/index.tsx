@@ -36,10 +36,6 @@ const swipePower = (offset: number, velocity: number) => {
 export default function Store() {
   const [[page, direction], setPage] = useState([0, 0]);
 
-  // We only have 3 images, but we paginate them absolutely (ie 1, 2, 3, 4, 5...) and
-  // then wrap that within 0-2 to find our image ID in the array below. By passing an
-  // absolute page index as the `motion` component's `key` prop, `AnimatePresence` will
-  // detect it as an entirely new image. So you can infinitely paginate as few as 1 images.
   const imageIndex = wrap(0, images.length, page);
 
   const paginate = (newDirection: number) => {
@@ -47,9 +43,9 @@ export default function Store() {
   };
 
   return (
-    <div className="flex flex-row justify-between items-center w-full h-screen bg-purple-200	 py-28 ">
+    <div className="flex flex-row justify-between items-center w-full h-screen bg-gray-300	 py-28 ">
 
-      <div className="flex flex-col w-1/2 bg-purple-200 px-28 ">
+      <div className="flex flex-col w-1/2 bg-gray-300 px-28 ">
         <h1 className="text-2xl text-left font-bold text-pink-400 pb-1 w-full uppercase">
           Venha conhecer nossa lojinha
         </h1>
@@ -72,13 +68,14 @@ export default function Store() {
 
       </div>
 
-      <div className="flex flex-col items-center justify-center h-screen bg-pink-100 w-1/2 px-28">
+      <div className="flex flex-col items-center justify-center h-screen bg-gray-100 w-1/2 px-28">
 
         <div className="example-container">
           <AnimatePresence initial={false} custom={direction}>
             <motion.img
               className="trans"
               key={page}
+              width={250}
               src={images[imageIndex]}
               custom={direction}
               variants={variants}
@@ -111,16 +108,16 @@ export default function Store() {
           </div>
         </div>
 
-        <div className="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
+        <div className=" px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
           <div className="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
             <nav className="relative z-0 inline-flex shadow-sm -space-x-px" aria-label="Pagination">
-              <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-pink-100">
+              <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-100">
                 1
               </a>
-              <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-pink-100 text-sm font-medium text-gray-700 hover:bg-pink-100">
+              <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-gray-100 text-sm font-medium text-gray-700 hover:bg-gray-100">
                 2
               </a>
-              <a href="#" className="hidden md:inline-flex relative items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-pink-100">
+              <a href="#" className="hidden md:inline-flex relative items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-100">
                 3
               </a>
             </nav>
