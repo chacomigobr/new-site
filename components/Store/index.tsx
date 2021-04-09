@@ -46,7 +46,7 @@ export default function Store() {
     <div className="flex flex-row justify-between items-center w-full h-screen bg-green-600	 py-28 ">
 
       <div className="flex flex-col w-1/2 bg-green-600 px-28 ">
-        <h1 className="text-2xl text-left font-bold text-green-300 pb-1 w-full uppercase">
+        <h1 className="text-2xl text-left font-bold text-gray-200 pb-1 w-full uppercase">
           Venha conhecer nossa lojinha
         </h1>
 
@@ -108,7 +108,7 @@ export default function Store() {
           </div>
         </div>
 
-        <div className=" px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
+        <div className=" px-4 py-3 flex items-center justify-between border-t border-green-500 sm:px-6">
           <div className="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
             <nav className="relative z-0 inline-flex shadow-sm -space-x-px" aria-label="Pagination">
               <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-100">
@@ -124,7 +124,7 @@ export default function Store() {
           </div>
         </div>
 
-        <button className="bg-purple-600 px-4 py-2 rounded-4xl mt-16 justify-end">
+        <button className="bg-green-600 px-4 py-2 rounded-4xl mt-16 justify-end">
           <p className="text-white"> ver mais + </p>
         </button>
       </div>

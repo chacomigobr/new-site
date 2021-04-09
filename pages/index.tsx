@@ -28,7 +28,7 @@ export default function Home() {
         <News />
         <DownloadApp />
         <People />
-        <WordsRun />
+        {/* <WordsRun /> */}
         <Faq />
         <Store />
         <Footer />

@@ -5,7 +5,7 @@ export default function About() {
     <div className="bg-green-100 ">
       <div className="flex flex-col justify-around w-full h-auto bg-green-300 pt-16 md:px-28 md:py-20 md:bg-green-100">
 
-        <h1 className="text-4xl text-center font-bold text-gray-700 md:text-gray-500 pb-2 md:pb-16">
+        <h1 className="text-4xl text-center font-bold text-gray-700 md:text-green-600 pb-2 md:pb-16">
           Sobre
         </h1>
 
@@ -15,10 +15,10 @@ export default function About() {
           </div>
 
           <div>
-            <h1 className="text-xl text-center font-bold text-gray-600  py-4">
+            <h1 className="text-xl text-center font-bold text-green-600  py-4">
               Quem somos?
             </h1>
-            <h3 className="text-sm leading-6 pb-10 text-center md:text-left w-auto md:w-96 font-bold text-gray-500">
+            <h3 className="text-sm leading-6 pb-10 text-center md:text-left w-auto md:w-96 font-bold text-green-800">
               Chá Comigo é toda comunidade, mulheres, homens e todos os gêneros catagolados
               ou que ainda por ser descobertos. Pessoas que acreditam na necessária difusão
               de ações pelos diversos setores da sociedade para o enfrentamento dessas violências.
@@ -33,11 +33,11 @@ export default function About() {
 
 
           <div>
-            <h1 className="text-xl text-center font-bold text-gray-600 py-4">
+            <h1 className="text-xl text-center font-bold text-green-600 py-4">
               Nossa missão
             </h1>
 
-            <h3 className="text-sm leading-6 pb-10	text-center md:text-left w-auto md:w-96 font-bold text-gray-500">
+            <h3 className="text-sm leading-6 pb-10	text-center md:text-left w-auto md:w-96 font-bold text-green-800">
               Lutar contra a violência contra a mulher munidos de informação.
               A violência contra mulheres constitui-se em uma das principais formas de
               violação dos seus direitos humanos, atingindo-as em seus direitos à vida,
@@ -57,11 +57,11 @@ export default function About() {
           </div>
 
           <div>
-            <h1 className="text-xl text-center font-bold text-gray-600  py-4">
+            <h1 className="text-xl text-center font-bold text-green-600  py-4">
               Onde queremos chegar
             </h1>
 
-            <h3 className="text-sm leading-6 pb-10 text-center md:text-left w-auto md:w-96  font-bold text-gray-500">
+            <h3 className="text-sm leading-6 pb-10 text-center md:text-left w-auto md:w-96  font-bold text-green-800">
               Numa realidade onde as mulheres tenham voz e que essa voz seja ouvida e não calada.
               Sabemos que caminho a ser trilhado não será fácil, mas juntas chegaremos longe.
               Buscamos um mundo onde não seja comum, brigas,
