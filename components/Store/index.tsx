@@ -43,32 +43,42 @@ export default function Store() {
   };
 
   return (
-    <div className="flex flex-row justify-between items-center w-full h-screen bg-green-600	 py-28 ">
+    <div className="flex flex-col md:flex-row justify-between items-center w-full 
+    md:h-screen bg-green-600 py-16 md:py-28 ">
 
-      <div className="flex flex-col w-1/2 bg-green-600 px-28 ">
-        <h1 className="text-2xl text-left font-bold text-gray-200 pb-1 w-full uppercase">
+      <div className="flex flex-col md:w-1/2 bg-green-600 px-16 md:px-28 ">
+        <h1 className="text-2xl text-center md:text-left font-bold text-gray-200 
+        pb-6 md:pb-2 w-full uppercase">
           Venha conhecer nossa lojinha
         </h1>
 
-        <h1 className="text-base text-left  text-gray-200 font-bold pb-6 w-full">
+        <h1 className="text-base text-center md:text-left text-gray-200 
+        font-normal pb-6 w-full">
           Camisetas, canecas, sticks personalizados...
         </h1>
 
-        <div className=" flex  justify-start text-base text-left  text-gray-200 font-bold pb-2 w-full">
-          <Image src="/images/core.png" width="20" height="16" className="" />  <h2 className="px-2"> Varios tamanhos e cores variadas</h2>
+        <div className=" flex  justify-start text-base text-gray-200 
+        text-center md:text-left font-normal pb-2 w-full">
+          <Image src="/images/core.png" width="20" height="16" className="" />
+          <h2 className="px-2"> Varios tamanhos e cores variadas</h2>
         </div>
 
-        <div className="flex  justify-start text-base text-left  text-gray-200 font-bold pb-2 w-full">
-          <Image src="/images/core.png" width="20" height="16" className="" /> <h2 className="px-2"> Vendas usadas para investir na causa</h2>
+        <div className="flex  justify-start text-base   text-gray-200 
+        text-center md:text-left font-normal pb-2 w-full">
+          <Image src="/images/core.png" width="20" height="16" className="" />
+          <h2 className="px-2"> Vendas usadas para investir na causa</h2>
         </div>
 
-        <div className="flex  justify-start text-base text-left  text-gray-200 font-bold pb-2 w-full">
-          <Image src="/images/core.png" width="20" height="16" className="" /> <h2 className="px-2">O primeiro passo é se questionar </h2>
+        <div className="flex  justify-start text-base text-gray-200 
+        text-center md:text-left font-normal pb-2 w-full">
+          <Image src="/images/core.png" width="20" height="16" className="" />
+          <h2 className="px-2">O primeiro passo é se questionar </h2>
         </div>
 
       </div>
 
-      <div className="flex flex-col items-center justify-center h-screen bg-green-300 w-1/2 px-28">
+      <div className="flex w-full bg-green-600 flex-col items-center justify-center md:h-screen
+      md:bg-green-300 md:w-1/2 md:px-28">
 
         <div className="example-container">
           <AnimatePresence initial={false} custom={direction}>
@@ -108,7 +118,8 @@ export default function Store() {
           </div>
         </div>
 
-        <div className=" px-4 py-3 flex items-center justify-between border-t border-green-500 sm:px-6">
+        <div className=" px-4 py-3 flex items-center justify-between border-t
+         md:border-green-400 sm:px-6">
           <div className="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
             <nav className="relative z-0 inline-flex shadow-sm -space-x-px" aria-label="Pagination">
               <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-100">
@@ -124,7 +135,7 @@ export default function Store() {
           </div>
         </div>
 
-        <button className="bg-green-600 px-4 py-2 rounded-4xl mt-16 justify-end">
+        <button className="bg-green-500 md:bg-green-600 px-4 py-2 rounded-4xl mt-16 justify-end">
           <p className="text-white"> ver mais + </p>
         </button>
       </div>

@@ -22,7 +22,6 @@ module.exports = {
       'large': '12px',
     },
     colors: {
-      background: '##A09E95',
       white: colors.white,
       yellow: colors.yellow,
       purple: colors.purple,
