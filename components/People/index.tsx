@@ -8,7 +8,7 @@ export default function People() {
       </div>
 
       <div className=" flex flex-col-reverse md:flex-row justify-around w-full h-auto " >
-        <div className=" rounded-md shadow-xl  flex flex-col justify-around bg-green-200 m-8 p-8">
+        <div className="rounded-md shadow-lg flex flex-col justify-around bg-green-200 m-8 p-8">
           <div className="flex flex-row justify-center ">
             <Image src="/images/avatarana.svg" width="180" height="180" />
           </div>
@@ -19,7 +19,7 @@ export default function People() {
           </div>
         </div>
 
-        <div className=" rounded-md shadow-xl  flex flex-col justify-around bg-green-200 m-8 p-8">
+        <div className="rounded-md shadow-lg flex flex-col justify-around bg-green-200 m-8 p-8">
           <div className="flex flex-row justify-center ">
             <Image src="/images/avatargis.svg" width="180" height="180" />
           </div>
@@ -31,7 +31,7 @@ export default function People() {
 
         </div>
 
-        <div className=" rounded-md shadow-xl  flex flex-col justify-around bg-green-200 m-8 p-8">
+        <div className="rounded-md shadow-lg flex flex-col justify-around bg-green-200 m-8 p-8">
           <div className="flex flex-row justify-center ">
             <Image src="/images/avatarcalm.svg" width="180" height="180" />
           </div>

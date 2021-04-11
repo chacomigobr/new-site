@@ -59,7 +59,7 @@ export default function Store() {
         </div>
 
         <div className="flex  justify-start text-base text-left  text-gray-200 font-bold pb-2 w-full">
-          <Image src="/images/core.png" width="20" height="16" className="" /> <h2 className="px-2"> Valor das vendas usadas para investir na causa</h2>
+          <Image src="/images/core.png" width="20" height="16" className="" /> <h2 className="px-2"> Vendas usadas para investir na causa</h2>
         </div>
 
         <div className="flex  justify-start text-base text-left  text-gray-200 font-bold pb-2 w-full">

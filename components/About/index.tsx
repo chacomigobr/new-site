@@ -9,16 +9,18 @@ export default function About() {
           Sobre
         </h1>
 
-        <div className=" flex flex-col-reverse md:flex-row justify-around w-full h-auto px-16 py-16 bg-green-300">
+        <div className=" flex flex-col-reverse md:flex-row justify-around w-full 
+          h-auto px-16 py-8 md:px-16 md:py-16 bg-green-300">
           <div className="flex flex-row justify-center w-auto md:w-96  h-60">
             <Image src="/images/latte.png" width="250" height="300" />
           </div>
 
           <div>
-            <h1 className="text-xl text-center font-bold text-green-600  py-4">
+            <h1 className="text-2xl text-center font-bold text-green-600 pb-4 ">
               Quem somos?
             </h1>
-            <h3 className="text-sm leading-6 pb-10 text-center md:text-left w-auto md:w-96 font-bold text-green-800">
+            <h3 className="text-md leading-6  pb-10 
+            text-center md:text-left w-auto md:w-96 font-normal text-green-600">
               Chá Comigo é toda comunidade, mulheres, homens e todos os gêneros catagolados
               ou que ainda por ser descobertos. Pessoas que acreditam na necessária difusão
               de ações pelos diversos setores da sociedade para o enfrentamento dessas violências.
@@ -29,15 +31,15 @@ export default function About() {
           </div>
         </div>
 
-        <div className=" flex flex-col md:flex-row justify-around w-full h-auto px-16 py-16 bg-green-200 ">
+        <div className="flex flex-col md:flex-row justify-around w-full h-auto px-16 py-16 bg-green-200 ">
 
 
           <div>
-            <h1 className="text-xl text-center font-bold text-green-600 py-4">
+            <h1 className="text-2xl text-center font-bold text-green-600 pb-4 ">
               Nossa missão
             </h1>
 
-            <h3 className="text-sm leading-6 pb-10	text-center md:text-left w-auto md:w-96 font-bold text-green-800">
+            <h3 className="text-md leading-6 pb-10	text-center md:text-left w-auto md:w-96 font-normal text-green-600">
               Lutar contra a violência contra a mulher munidos de informação.
               A violência contra mulheres constitui-se em uma das principais formas de
               violação dos seus direitos humanos, atingindo-as em seus direitos à vida,
@@ -57,11 +59,11 @@ export default function About() {
           </div>
 
           <div>
-            <h1 className="text-xl text-center font-bold text-green-600  py-4">
+            <h1 className="text-2xl text-center font-bold text-green-600  pb-4 ">
               Onde queremos chegar
             </h1>
 
-            <h3 className="text-sm leading-6 pb-10 text-center md:text-left w-auto md:w-96  font-bold text-green-800">
+            <h3 className="text-md leading-6 pb-10 text-center md:text-left w-auto md:w-96  font-normal text-green-600">
               Numa realidade onde as mulheres tenham voz e que essa voz seja ouvida e não calada.
               Sabemos que caminho a ser trilhado não será fácil, mas juntas chegaremos longe.
               Buscamos um mundo onde não seja comum, brigas,
@@ -72,6 +74,7 @@ export default function About() {
 
 
         </div>
+
       </div>
 
     </div>
