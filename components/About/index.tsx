@@ -3,7 +3,8 @@ import Image from 'next/image'
 export default function About() {
   return (
     <div className="bg-green-100 ">
-      <div className="flex flex-col justify-around w-full h-auto bg-green-300 pt-16 md:px-28 md:py-20 md:bg-green-100">
+      <div className="flex flex-col justify-around w-full h-auto bg-green-300 
+        pt-16 md:px-28 md:py-20 md:bg-green-100">
 
         <h1 className="text-4xl text-center font-bold text-gray-700 md:text-green-600 pb-2 md:pb-16">
           Sobre
@@ -21,12 +22,10 @@ export default function About() {
             </h1>
             <h3 className="text-md leading-6  pb-10 
             text-center md:text-left w-auto md:w-96 font-normal text-green-600">
-              Chá Comigo é toda comunidade, mulheres, homens e todos os gêneros catagolados
-              ou que ainda por ser descobertos. Pessoas que acreditam na necessária difusão
-              de ações pelos diversos setores da sociedade para o enfrentamento dessas violências.
-              Todos que fazem parte da mudança e contribuem como podem.
-
-              Não fica fora dessa, você também pode fazer a diferença!
+              ChaComigo é uma comunidade que acredita na difusão
+              de ações que visam o enfrentamento dos diversos tipos de violência.
+              <br />
+              Somos parte da mudança, não ficque fora dessa, venha fazer a diferença!
             </h3>
           </div>
         </div>
@@ -41,9 +40,9 @@ export default function About() {
 
             <h3 className="text-md leading-6 pb-10	text-center md:text-left w-auto md:w-96 font-normal text-green-600">
               Lutar contra a violência contra a mulher munidos de informação.
-              A violência contra mulheres constitui-se em uma das principais formas de
-              violação dos seus direitos humanos, atingindo-as em seus direitos à vida,
-              à saúde e à integridade física. Ela é estruturante da desigualdade de gênero.
+              <br />
+              A violência é estruturante da desigualdade de gênero, nossa missão é
+              desestruturar esse mecanismo opressor atravez de educação e ação.
             </h3>
           </div>
 
@@ -64,10 +63,10 @@ export default function About() {
             </h1>
 
             <h3 className="text-md leading-6 pb-10 text-center md:text-left w-auto md:w-96  font-normal text-green-600">
-              Numa realidade onde as mulheres tenham voz e que essa voz seja ouvida e não calada.
-              Sabemos que caminho a ser trilhado não será fácil, mas juntas chegaremos longe.
-              Buscamos um mundo onde não seja comum, brigas,
-              discursões e mortes de mulheres pelo simples fato de ser mulher.
+              Buscamos uma sociedade onde as mulheres tenham voz e que sejam ouvida e não mais caladas.
+              <br />
+              Sabemos do longo caminho a ser trilhado, mas juntas chegaremos longe.
+
             </h3>
           </div>
 

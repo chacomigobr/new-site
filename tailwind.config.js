@@ -30,6 +30,7 @@ module.exports = {
       red: colors.rose,
       pink: colors.fuchsia,
       black: colors.black,
+      lime: colors.orange,
       green: colors.blueGray
     },
     fontFamily: {

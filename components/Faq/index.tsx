@@ -1,7 +1,8 @@
 
 export default function Faq() {
   return (
-    <div className=" flex flex-col justify-start w-full h-auto bg-white	px-8 py-16  md:px-28 md:py-24">
+    <div className=" flex flex-col justify-start w-full h-auto bg-white	
+      px-8 py-16 md:px-28 md:py-24">
 
       <h1 className="text-2xl text-left font-bold text-green-700 pb-10">Perguntas Mais Frequentes</h1>
 

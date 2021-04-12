@@ -3,12 +3,12 @@ import { motion } from "framer-motion"
 
 export default function News() {
   return (
-    <div className="flex flex-col bg-green-400 w-full px-8 py-16 md:px-16 md:py-16">
+    <div className="flex flex-col bg-green-500 w-full px-8 py-16 md:px-16 md:py-16">
 
       {/* <div className="flex bg-green-300 py-0 mb-0.5 md:py-0.5 mx-28 md:mb-28" /> */}
 
-      <h1 className="text-4xl text-center font-bold text-green-600 md:text-green-100 pb-2 md:pb-16">
-        Notícias
+      <h1 className="text-4xl text-center font-bold text-green-800 md:text-green-100 pb-2 md:pb-16">
+        Destaques
       </h1>
 
       <div className="flex flex-col md:flex-row align-center justify-center">
@@ -19,7 +19,9 @@ export default function News() {
           </div>
 
           <div className="md:w-56">
-            <h1 className="text-xl text-center md:text-left font-bold text-gray-700 pt-2 pb-1">Evento vida nova já!</h1>
+            <h1 className="text-xl text-center md:text-left font-bold text-gray-600 pt-2 pb-1">
+              Evento vida nova já!
+            </h1>
             <h1 className="text-md text-center md:text-left text-gray-600">
               Encontro realizado na pracinha do Bairro das Laranjeiras ás 19h, com rodas de discurssão e pipoca
             </h1>
@@ -33,7 +35,9 @@ export default function News() {
           </div>
 
           <div className="md:w-56">
-            <h1 className="text-xl text-center md:text-left font-bold text-gray-700 pt-2 pb-1">A felicidade na palma da sua mão</h1>
+            <h1 className="text-xl text-center md:text-left font-bold text-gray-600 pt-2 pb-1">
+              A felicidade na palma da sua mão
+            </h1>
             <h1 className="text-md text-center md:text-left text-gray-600">
               Quer tomar redeas da sua vida? Venha
               conversar sobre as grandes conquistas e seus desafios
@@ -48,9 +52,12 @@ export default function News() {
           </div>
 
           <div className="md:w-56">
-            <h1 className="text-xl text-center md:text-left font-bold text-gray-700 pt-2 pb-1">Tenha foco em você</h1>
+            <h1 className="text-xl text-center md:text-left font-bold text-gray-600 pt-2 pb-1">
+              Foque em você!
+            </h1>
             <h1 className="text-md text-center md:text-left text-gray-600">
-              Projetado para ser usado dos mais jovens até as pessoas com mais dificuldades com a tecnologia
+              Seu objetivo deve ser você. O mais importante
+              deve ser seu bem-estar, não deixe isso de lado por coisas pequenas.
             </h1>
           </div>
 

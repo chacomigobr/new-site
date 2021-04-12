@@ -44,41 +44,41 @@ export default function Store() {
 
   return (
     <div className="flex flex-col md:flex-row justify-between items-center w-full 
-    md:h-screen bg-green-600 py-16 md:py-28 ">
+    md:h-screen bg-green-300 py-16 md:py-28 ">
 
-      <div className="flex flex-col md:w-1/2 bg-green-600 px-16 md:px-28 ">
-        <h1 className="text-2xl text-center md:text-left font-bold text-gray-200 
-        pb-6 md:pb-2 w-full uppercase">
+      <div className="flex flex-col md:w-1/2 bg-green-300 px-8 md:px-28 ">
+        <h1 className="text-2xl text-center md:text-left font-bold text-gray-600 
+        pb-8 md:pb-2 w-full uppercase">
           Venha conhecer nossa lojinha
         </h1>
 
-        <h1 className="text-base text-center md:text-left text-gray-200 
-        font-normal pb-6 w-full">
+        <h1 className="text-md text-center md:text-left text-gray-600 
+        font-normal pb-4 w-full">
           Camisetas, canecas, sticks personalizados...
         </h1>
 
-        <div className=" flex  justify-start text-base text-gray-200 
-        text-center md:text-left font-normal pb-2 w-full">
+        <div className=" flex text-base text-gray-600 
+        justify-center md:justify-start font-bold pb-2 w-full">
           <Image src="/images/core.png" width="20" height="16" className="" />
-          <h2 className="px-2"> Varios tamanhos e cores variadas</h2>
+          <h2 className="px-2"> Tamanhos e cores variadas</h2>
         </div>
 
-        <div className="flex  justify-start text-base   text-gray-200 
-        text-center md:text-left font-normal pb-2 w-full">
+        <div className="flex text-base   text-gray-600 
+        justify-center md:justify-start font-bold pb-2 w-full">
           <Image src="/images/core.png" width="20" height="16" className="" />
-          <h2 className="px-2"> Vendas usadas para investir na causa</h2>
+          <h2 className="px-2"> Lucro usado para investir na causa</h2>
         </div>
 
-        <div className="flex  justify-start text-base text-gray-200 
-        text-center md:text-left font-normal pb-2 w-full">
+        <div className="flex text-base text-gray-600 
+        justify-center md:justify-start font-bold pb-2 w-full">
           <Image src="/images/core.png" width="20" height="16" className="" />
           <h2 className="px-2">O primeiro passo é se questionar </h2>
         </div>
 
       </div>
 
-      <div className="flex w-full bg-green-600 flex-col items-center justify-center md:h-screen
-      md:bg-green-300 md:w-1/2 md:px-28">
+      <div className="flex w-full bg-green-300 flex-col items-center justify-center 
+      md:h-screen md:bg-green-100 md:w-1/2 px-8 md:px-28">
 
         <div className="example-container">
           <AnimatePresence initial={false} custom={direction}>
@@ -136,7 +136,7 @@ export default function Store() {
         </div>
 
         <button className="bg-green-500 md:bg-green-600 px-4 py-2 rounded-4xl mt-16 justify-end">
-          <p className="text-white"> ver mais + </p>
+          <p className="text-gray-700 font-bold md:text-white"> ver mais + </p>
         </button>
       </div>
 

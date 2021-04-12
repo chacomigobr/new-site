@@ -3,11 +3,11 @@ import { motion } from "framer-motion"
 
 export default function Welcome() {
   return (
-    <div className="flex flex-col  bg-green-800">
+    <div className="flex flex-col  bg-green-600">
       <div className="flex flex-row justify-center bg-background h-screen py-24" >
         <motion.div
           className="flex flex-col-reverse md:flex-row justify-evenly items-center 
-          h-5/6 bg-green-800 md:bg-green-700	md:px-28 md:py-28 border-customise w-3/5"
+          h-5/6 bg-green-600 md:bg-green-500	md:px-28 md:py-28 border-customise w-3/5"
           animate={{ scale: 1.1 }}>
 
           <motion.div className="flex flex-col md:w-1/2 "
@@ -19,13 +19,13 @@ export default function Welcome() {
               damping: 20
             }}
           >
-            <h1 className="text-4xl text-center md:text-left font-bold text-gray-200 my-2">
+            <h1 className="text-4xl text-center md:text-left font-bold text-gray-100 my-2">
               ChaComigo
             </h1>
-            <h2 className="text-base text-center md:text-left text-gray-200 ">
+            <h2 className="text-base text-center md:text-left text-gray-100 ">
               Na construção de um mundo mais consciente com pessoas mais inteligentes emocionalmente
             </h2>
-            <h3 className="text-base text-center md:text-left text-gray-200">
+            <h3 className="text-base text-center md:text-left text-gray-100">
               O mais importante é que esteja bem e que as pessoas a sua volta também
             </h3>
           </motion.div>
