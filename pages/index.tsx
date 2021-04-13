@@ -10,6 +10,8 @@ import Store from '../components/Store'
 import Footer from '../components/Footer'
 import WordsRun from '../components/WordsRun'
 import News from '../components/News'
+import Contact from '../components/Contact'
+
 
 
 export default function Home() {
@@ -31,6 +33,7 @@ export default function Home() {
         {/* <WordsRun /> */}
         <Faq />
         <Store />
+        <Contact />
         <Footer />
       </main>
 

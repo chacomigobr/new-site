@@ -11,7 +11,11 @@ export default function DownloadApp() {
 
           <div className="flex flex-row justify-center" />
 
-          <div className="flex flex-col justify-center col-span-3 pb-8">
+          <div className="flex flex-col col-span-3 pb-8">
+            <div className="flex flex-row justify-center col-span-3">
+              <Image src="/images/coffee-cup.png" width="50" height="50" className="" />
+            </div>
+
             <h1 className="text-2xl text-center font-bold text-green-700 text-opacity-100 py-2">
               ChaComigo
             </h1 >
@@ -27,6 +31,10 @@ export default function DownloadApp() {
 
 
           <div className="flex flex-col justify-center">
+            <div className="flex flex-row justify-center col-span-3">
+              <Image src="/images/touch.png" width="50" height="50" className="" />
+            </div>
+
             <h1 className="text-2xl text-center font-bold text-green-700  py-2">
               Fácil de usar
             </h1 >
@@ -36,10 +44,14 @@ export default function DownloadApp() {
           </div>
 
           <div className="flex py-16 flex-row justify-center col-span-3">
-            <Image src="/images/telefone.png" width="250" height="250" className="" />
+            <Image src="/images/telefone.png" width="200" height="200" className="" />
           </div>
 
           <div className="flex flex-col justify-center">
+            <div className="flex flex-row justify-center col-span-3">
+              <Image src="/images/laughing.png" width="50" height="50" className="" />
+            </div>
+
             <h1 className="text-2xl text-center font-bold text-green-700  py-2">
               Divertido e Interativo
             </h1 >
@@ -52,8 +64,13 @@ export default function DownloadApp() {
           <div className="flex flex-row justify-center" />
 
           <div className="flex flex-col justify-center col-span-1">
+
+            <div className="flex flex-row justify-center col-span-3">
+              <Image src="/images/community.png" width="50" height="50" className="" />
+            </div>
+
             <h1 className="text-2xl text-center font-bold text-green-700  py-2">
-              Comunidades
+              Comunidade
             </h1 >
             <h3 className="flex justify-center text-base text-center font-normal text-gray-600 ">
               Acesso a uma comunidade de pessoas engajadas e interessadas em ajudar você no que for necessário. Discursões
@@ -64,6 +81,10 @@ export default function DownloadApp() {
           <div className="flex flex-row justify-center" />
 
           <div className="flex flex-col justify-center col-span-1">
+            <div className="flex flex-row justify-center col-span-3">
+              <Image src="/images/news.png" width="50" height="50" className="" />
+            </div>
+
             <h1 className="text-2xl text-center font-bold text-green-700  py-2">
               Novidade
             </h1 >
@@ -87,54 +108,72 @@ export default function DownloadApp() {
           <Image src="/images/telefone.png" width="200" height="200" className="" />
         </div>
 
-
         <div className="flex flex-col pt-8">
-          <h1 className="text-2xl text-left font-bold text-green-700 py-2">
+          <div className="flex flex-row ">
+            <Image src="/images/coffee-cup.png" width="40" height="40" className="" />
+          </div>
+          <h1 className="text-xl text-left font-bold text-green-700 py-2">
             ChaComigo
           </h1 >
-          <h3 className="flex  text-base text-left font-normal text-gray-600 ">
+          <h3 className="flex  text-md text-left font-normal text-gray-600 ">
             Um App para todos porque a
           </h3>
-          <h3 className="flex  text-base text-left font-normal text-gray-600 ">
+          <h3 className="flex  text-md text-left font-normal text-gray-600 pb-4">
             nossa missão é levar luz aos relacionamentos
           </h3>
         </div>
 
 
         <div className="flex flex-col justify-center">
-          <h1 className="text-2xl text-left font-bold text-green-700  py-2">
+          <div className="flex flex-row col-span-3 pt-4">
+            <Image src="/images/touch.png" width="40" height="40" className="" />
+          </div>
+
+          <h1 className="text-xl text-left font-bold text-green-700  py-2">
             Fácil de usar
           </h1 >
-          <h3 className="flex  text-base text-left font-normal text-gray-600 ">
+          <h3 className="flex  text-md text-left font-normal text-gray-600  pb-4">
             Projetado para ser usado dos mais jovens até as pessoas com mais dificuldades com a tecnologia
           </h3>
         </div>
 
         <div className="flex flex-col ">
-          <h1 className="text-2xl text-left font-bold text-green-700  py-2">
+          <div className="flex flex-row col-span-3 pt-4">
+            <Image src="/images/laughing.png" width="40" height="40" className="" />
+          </div>
+
+          <h1 className="text-xl text-left font-bold text-green-700  py-2">
             Divertido e Interativo
           </h1 >
-          <h3 className="flex text-base text-left font-normal text-gray-600 ">
+          <h3 className="flex text-md text-left font-normal text-gray-600  pb-4">
             Aprender não precisa ser chato, você vai aprender brincando. Uma aventura que te leverá ao próximo nível.
           </h3>
         </div>
 
 
-        <div className="flex flex-col justify-center col-span-1">
-          <h1 className="text-2xl text-left font-bold text-green-700  py-2">
-            Comunidades
+        <div className="flex flex-col col-span-1">
+          <div className="flex flex-row col-span-3 pt-4">
+            <Image src="/images/community.png" width="40" height="40" className="" />
+          </div>
+
+          <h1 className="text-xl text-left font-bold text-green-700  py-2">
+            Comunidade
           </h1 >
-          <h3 className="flex justify-center text-base text-left font-normal text-gray-600 ">
+          <h3 className="flex text-md text-left font-normal text-gray-600  pb-4">
             Acesso a uma comunidade de pessoas engajadas e interessadas em ajudar você no que for necessário. Discursões
             e apresentações dos mais variados temas.
           </h3>
         </div>
 
-        <div className="flex flex-col justify-center col-span-1">
-          <h1 className="text-2xl text-left font-bold text-green-700  py-2">
-            Novidade
+        <div className="flex flex-col col-span-1">
+          <div className="flex flex-row col-span-3 pt-4">
+            <Image src="/images/news.png" width="40" height="40" className="" />
+          </div>
+
+          <h1 className="text-xl text-left font-bold text-green-700  py-2">
+            Novidades
           </h1 >
-          <h3 className="flex justify-center text-base text-left font-normal text-gray-600 ">
+          <h3 className="flex text-md text-left font-normal text-gray-600  pb-4">
             De tempos em tempos ações surpresas são realizadas, fique ligada. Quando você menos esperar estamos
             com uma novidade saindo do forno.
           </h3>

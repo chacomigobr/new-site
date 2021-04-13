@@ -13,7 +13,7 @@ export default function News() {
 
       <div className="flex flex-col md:flex-row align-center justify-center">
 
-        <div className=" rounded-md shadow-2xl  flex flex-col justify-around bg-green-300 m-8 p-8">
+        <div className=" rounded-md shadow-2xl  flex flex-col justify-around bg-green-300 md:mx-8 my-8 p-8">
           <div className="flex flex-row justify-center pb-4">
             <Image src="/images/foguete.png" width="180" height="180" />
           </div>
@@ -29,7 +29,7 @@ export default function News() {
 
         </div>
 
-        <div className=" rounded-md shadow-2xl  flex flex-col justify-around bg-green-300 m-8 p-8">
+        <div className=" rounded-md shadow-2xl  flex flex-col justify-around bg-green-300 md:mx-8 my-8 p-8">
           <div className="flex flex-row justify-center pb-4">
             <Image src="/images/core.png" width="180" height="180" />
           </div>
@@ -46,7 +46,7 @@ export default function News() {
 
         </div>
 
-        <div className=" rounded-md shadow-2xl  flex flex-col justify-around bg-green-300 m-8 p-8">
+        <div className=" rounded-md shadow-2xl  flex flex-col justify-around bg-green-300 md:mx-8 my-8 p-8">
           <div className="flex flex-row justify-center pb-4">
             <Image src="/images/alvo.png" width="180" height="180" />
           </div>
