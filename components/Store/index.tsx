@@ -44,9 +44,9 @@ export default function Store() {
 
   return (
     <div className="flex flex-col md:flex-row justify-between items-center w-full 
-    md:h-screen bg-green-300 py-16 md:py-28 ">
+    md:h-screen bg-green-200 py-16 md:py-28 ">
 
-      <div className="flex flex-col md:w-1/2 bg-green-300 px-8 md:px-28 ">
+      <div className="flex flex-col md:w-1/2 bg-green-200 px-8 md:px-28 ">
         <h1 className="text-2xl md:text-left font-bold text-gray-600 
         pb-8 md:pb-2 w-full uppercase">
           Venha conhecer nossa lojinha
@@ -77,7 +77,7 @@ export default function Store() {
 
       </div>
 
-      <div className="flex w-full bg-green-300 flex-col items-center justify-start 
+      <div className="flex w-full bg-green-200 flex-col items-center justify-start 
       md:h-screen md:bg-green-100 md:w-1/2 px-8 md:px-28">
 
         <div className="example-container">
@@ -119,16 +119,19 @@ export default function Store() {
         </div>
 
         <div className=" px-4 py-3 flex items-center justify-between border-t
-         md:border-green-400 sm:px-6">
+         md:border-gray-400 sm:px-6">
           <div className="hidden sm:flex-1 sm:flex sm:items-center sm:justify-between">
             <nav className="relative z-0 inline-flex shadow-sm -space-x-px" aria-label="Pagination">
-              <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-100">
+              <a href="#" className="relative inline-flex items-center px-4 py-2 border 
+              border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-green-100">
                 1
               </a>
-              <a href="#" className="relative inline-flex items-center px-4 py-2 border border-gray-300 bg-gray-100 text-sm font-medium text-gray-700 hover:bg-gray-100">
+              <a href="#" className="relative inline-flex items-center px-4 py-2 border 
+              border-gray-300 bg-green-100 text-sm font-medium text-gray-700 hover:bg-green-100">
                 2
               </a>
-              <a href="#" className="hidden md:inline-flex relative items-center px-4 py-2 border border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-gray-100">
+              <a href="#" className="hidden md:inline-flex relative items-center px-4 py-2 border 
+              border-gray-300 bg-white text-sm font-medium text-gray-700 hover:bg-green-100">
                 3
               </a>
             </nav>
@@ -136,7 +139,7 @@ export default function Store() {
         </div>
 
         <button className="bg-green-500 md:bg-green-600 px-4 py-2 rounded-4xl mt-16 justify-end">
-          <p className="text-gray-200 font-bold md:text-white"> Ir para loja </p>
+          <p className="w-40 text-white font-bold"> Ir para loja </p>
         </button>
       </div>
 

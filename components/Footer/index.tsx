@@ -6,7 +6,7 @@ export default function Footer() {
      md:justify-between w-full bg-gray-200 px-8	py-4 md:px-28 ">
 
       <h1 className=" text-center md:text-right text-2xl font-bold 
-        text-green-600">
+        text-gray-600">
         ChaComigo
       </h1>
 
@@ -27,7 +27,7 @@ export default function Footer() {
             <FaYoutube color="#475569" size={24} />
           </a>
         </div>
-        <h2 className="text-center md:text-right px-0 md:px-2 text-green-800 text-sm">
+        <h2 className="text-center md:text-right px-0 md:px-2 text-gray-800 text-sm">
           @ChaComigo 2021
         </h2>
       </div>
